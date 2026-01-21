@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'; // Change this
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Assignments from './pages/Assignments';
@@ -16,5 +16,3 @@ function App() {
         </Router>
     );
 }
-
-export default App;
