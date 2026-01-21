@@ -1,9 +1,9 @@
-import {HashRouter as Router, Routes, Route} from 'react-router-dom'; // Change this
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Assignments from './pages/Assignments';
 import AssignmentDetail from './pages/AssignmentDetail';
-import Admin from './pages/Admin'; // Bovenin toevoegen
+import Admin from './pages/Admin';
 
 function App() {
     return (
@@ -18,3 +18,5 @@ function App() {
         </Router>
     );
 }
+
+export default App;
